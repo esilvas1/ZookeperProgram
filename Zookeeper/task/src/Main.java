@@ -1,17 +1,26 @@
-
-
-
 public class Main {
     public static void main(String[] args) {
-        // write your code here
-        displayMessage();
-    }
+        String camel = """
+            Switching on the camera in the camel habitat...
+             ___.-''''-.
+            /___  @    |
+            ',,,,.     |         _.'''''''._
+                 '     |        /           \\
+                 |     \\    _.-'             \\
+                 |      '.-'                  '-.
+                 |                               ',
+                 |                                '',
+                  ',,-,                           ':;
+                       ',,| ;,,                 ,' ;;
+                          ! ; !'',,,',',,,,'!  ;   ;:
+                         : ;  ! !       ! ! ;  ;   :;
+                         ; ;   ! !      ! !  ; ;   ;,
+                        ; ;    ! !     ! !   ; ;
+                        ; ;    ! !    ! !     ; ;
+                       ;,,      !,!   !,!     ;,;
+                       /_I      L_I   L_I     /_I
+            Look at that! Our little camel is sunbathing!""";
 
-    public static void displayMessage() {
-        System.out.printf("I love animals!\n" +
-                "Let's check on the animals...\n" +
-                "The deer looks fine.\n" +
-                "The bat looks happy.\n" +
-                "The lion looks healthy.");
+        // write your code here
     }
 }
