@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ZookeeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-09T01:26:53" hostname="ESILVAS01" time="0.282">
+<testsuite name="ZookeeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-13T02:07:56" hostname="ESILVAS01" time="0.472">
   <properties/>
-  <testcase name="start" classname="ZookeeperTest" time="0.282"/>
+  <testcase name="start" classname="ZookeeperTest" time="0.472"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-I love animals!
-Let's check on the animals...
-The deer looks fine.
-The bat looks happy.
+Switching on the camera in the camel habitat...
+ ___.-''''-.
+/___  @    |
+',,,,.     |         _.'''''''._
+     '     |        /           \
+     |     \    _.-'             \
+     |      '.-'                  '-.
+     |                               ',
+     |                                '',
+      ',,-,                           ':;
+           ',,| ;,,                 ,' ;;
+              ! ; !'',,,',',,,,'!  ;   ;:
+             : ;  ! !       ! ! ;  ;   :;
+             ; ;   ! !      ! !  ; ;   ;,
+            ; ;    ! !     ! !   ; ;
+            ; ;    ! !    ! !     ; ;
+           ;,,      !,!   !,!     ;,;
+           /_I      L_I   L_I     /_I
+Look at that! Our little camel is sunbathing!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
