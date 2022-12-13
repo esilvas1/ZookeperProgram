@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         String camel = """
@@ -122,5 +125,27 @@ public class Main {
             It looks like we will soon have more rabbits!""";
 
         // write your code here
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<String> animals = new ArrayList<>();
+        animals.add(camel);
+        animals.add(lion);
+        animals.add(deer);
+        animals.add(goose);
+        animals.add(bat);
+        animals.add(rabbit);
+
+        System.out.println("Please enter the number of the habitat you would like to view: ");
+        int number = scanner.nextInt();
+
+        switch (number) {
+            case 0: System.out.println(animals.get(0)); break;
+            case 1: System.out.println(animals.get(1)); break;
+            case 2: System.out.println(animals.get(2)); break;
+            case 3: System.out.println(animals.get(3)); break;
+            case 4: System.out.println(animals.get(4)); break;
+            case 5: System.out.println(animals.get(5)); break;
+        }
+        System.out.println("---\n" +
+                "You've reached the end of the program. To check another habitat, please restart the watcher.");
     }
 }
