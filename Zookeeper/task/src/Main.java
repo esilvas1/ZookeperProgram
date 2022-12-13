@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -124,28 +123,24 @@ public class Main {
             (" ~----( ~   Y.  )
             It looks like we will soon have more rabbits!""";
 
+        String[] animals = {camel, lion, deer, goose, bat, rabbit};
+
         // write your code here
         Scanner scanner = new Scanner(System.in);
-        ArrayList<String> animals = new ArrayList<>();
-        animals.add(camel);
-        animals.add(lion);
-        animals.add(deer);
-        animals.add(goose);
-        animals.add(bat);
-        animals.add(rabbit);
+        String option =  null;
 
-        System.out.println("Please enter the number of the habitat you would like to view: ");
-        int number = scanner.nextInt();
-
-        switch (number) {
-            case 0: System.out.println(animals.get(0)); break;
-            case 1: System.out.println(animals.get(1)); break;
-            case 2: System.out.println(animals.get(2)); break;
-            case 3: System.out.println(animals.get(3)); break;
-            case 4: System.out.println(animals.get(4)); break;
-            case 5: System.out.println(animals.get(5)); break;
+        while(option != "exit") {
+            System.out.println("Please enter the number of the habitat you would like to view: ");
+            option = scanner.next();
+            switch (option) {
+                case "0": System.out.println(animals[0]); break;
+                case "1": System.out.println(animals[1]); break;
+                case "2": System.out.println(animals[2]); break;
+                case "3": System.out.println(animals[3]); break;
+                case "4": System.out.println(animals[4]); break;
+                case "5": System.out.println(animals[5]); break;
+                case "exit": System.out.println("See you later!"); return;
+            }
         }
-        System.out.println("---\n" +
-                "You've reached the end of the program. To check another habitat, please restart the watcher.");
     }
 }
